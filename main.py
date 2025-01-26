@@ -25,4 +25,5 @@ def report(book_str, char_count):
     
     print("--- End report ---")
 
-report(main(), char_count(main()))
+if __name__ == "__main__":
+    report(main(), char_count(main()))
